@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixitup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".watch">watch</button>
+            <button type="button" class="control" data-filter=".sunglass">Sunglass</button>
+            <button type="button" class="control" data-filter=".ring">Ring</button>
+            <button type="button" class="control" data-filter=".earring">Earring</button>
+
+
+
+        </div>
+        
+        <div class="img-group" id="img">
+
+            <img class="mix watch" src="img/watch 1.jpg" alt="" width="250px">
+            <img class="mix sunglass" src="img/sunglass 1.jpg" alt="" width="250px">
+            <img class="mix ring" src="img/ring 1.jpg" alt="" width="250px">
+            <img class="mix earring" src="img/earring 1.jpg" alt="" width="250px">
+            <img class="mix watch" src="img/watch 2.jpg" alt="" width="250px">
+            <img class="mix sunglass" src="img/sunglass 2.jpg" alt="" width="250px">
+            <img class="mix ring" src="img/ring 2.jpg" alt="" width="250px">
+            <img class="mix earring" src="img/earring 2.jpg" alt="" width="250px">
+            <img class="mix watch" src="img/watch 3.jpg" alt="" width="250px">
+            <img class="mix sunglass" src="img/sunglass 3.jpg" alt="" width="250px">
+            <img class="mix ring" src="img/ring 3.jpg" alt="" width="250px">
+            <img class="mix earring" src="img/earring 3.jpg" alt="" width="250px">
+            <img class="mix watch" src="img/watch 4.jpg" alt="" width="250px">
+            <img class="mix sunglass" src="img/sunglass 4.jpg" alt="" width="250px">
+            <img class="mix ring" src="img/ring 4.jpg" alt="" width="250px">
+            <img class="mix earring" src="img/earring 4.jpg" alt="" width="250px">
+
+        </div>
+
+
+    </div>
+    
+
+
+    <script src="script/mixitup.min.js"></script>
+
+    <script>
+        var amir = document.getElementById("img");
+        var mixer = mixitup(amir);
+    </script>
+</body>
+</html>

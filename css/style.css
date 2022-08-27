@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 25px auto 55px;
+    overflow: hidden;
+    background-color: darkslategrey;
+    padding: 30px;
+}
+.controls{
+    width: 40%;
+    margin: 55px auto;
+    display: flex;
+    justify-content: center;
+
+}
+.control{
+    margin: 0 15px;
+    padding: 15px 20px;
+   
+    
+}
+#img{
+    width:80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+.mix{
+    height: 250px;
+    margin: 10px;
+}
+.control:hover{
+    background-color: deepskyblue;
+    border-radius: 5px;
+    border: 1px solid #606060;
+    color: #fff;
+}
+
+
